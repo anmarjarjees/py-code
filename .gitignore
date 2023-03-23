@@ -1,3 +1,10 @@
+# My add-on:
+*.zip
+my-notes.txt
+my-venv/
+excel-venv/
+assign1-samples/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
