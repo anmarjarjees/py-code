@@ -6,9 +6,14 @@ cwd = Path.cwd()
 # Getting the file name:
 demo_file = Path.joinpath(cwd, 'demo.txt')
 
-# Notice below we CANNOT use , for concatenating:
-print('\nThe demo_file:', demo_file, '\n')
+# Notice below we CANNOT use + for concatenating:
+# Error: TypeError: can only concatenate str (not "WindowsPath") to str
+print('\nThe demo_file: '+ str(demo_file) + '\n')
 # parent_dir => Drive:\User\Your\Full\Path\demo.txt
+# Or using , instead + with str():
+print('\nThe demo_file: ', demo_file ,'\n')
+print("******************")
+
 
 # Get only the file name out of the full path:
 # using "name" property => returns a file name (str)

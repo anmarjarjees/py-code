@@ -4,6 +4,7 @@ my-notes.txt
 my-venv/
 excel-venv/
 assign1-samples/
+ws-env/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

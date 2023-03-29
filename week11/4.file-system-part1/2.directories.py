@@ -31,7 +31,11 @@ for child in parent_dir.iterdir():
         print(child)
 
 
-print('\n----- Current directory Contents-----')
+print('\n----- Current directory Contents (only directories) -----')
 for child in current_dir.iterdir():
     if child.is_dir():
         print(child)
+
+print('\n----- Current directory Contents (all contents)-----')
+for child in current_dir.iterdir():
+    print(child)
