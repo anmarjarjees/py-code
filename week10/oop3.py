@@ -2,7 +2,7 @@
 All members (instance variables and methods) in a Python class are "public" by default like in PHP. Any member can be accessed from outside the class environment.
 
 Private Members:
-Private members of a class are accessible withing the class only
+Private members of a class are accessible within the class only
 The most secured modifier
 Class members can be private by adding the prefix __ (double underscore)
 They cannot be accessed outside the class, doing so will give an AttributeError
@@ -12,7 +12,6 @@ Protected members of a class are accessible from within the class and are also a
 
 By "convention", adding the prefix _ (single underscore) to the instance varaible or method. So it will NOT prevent the access!
 """
-
 
 class Member:
     # Class Attributes:

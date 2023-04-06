@@ -1,0 +1,3 @@
+Dear Students,
+
+Please be advised that in this folder "2.web-scraping", we used a virtual environment. So you will need to follow the steps for preparing the VENV then install the required packages: requests and Beautifulsoap.

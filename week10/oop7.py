@@ -1,6 +1,5 @@
 import datetime
 
-
 class Member:
     def __init__(self, full_name, dob, title=""):
         self.name = full_name  # self.name will be the full name
