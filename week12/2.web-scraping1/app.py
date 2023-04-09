@@ -1,5 +1,4 @@
-# For full comments and details, please refer to 
-# Import the requests library: 
+# For full explanations and detailed comments, please refer to
 # Link: https://github.com/anmarjarjees/py-web-scraping
 """
 NOTE: 
@@ -8,6 +7,8 @@ From Select the Interpreter (you can click it from the VS Code status bar)
 > Make sure to select the recommended settings for the current VENV Interpreter
 > Don't select the global python interpreter
 """
+
+# Import the requests library: 
 import requests 
 from bs4 import BeautifulSoup
 

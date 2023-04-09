@@ -1,3 +1,7 @@
+# For full explanations and detailed comments, please refer to
+# Link: https://github.com/anmarjarjees/py-web-scraping
+
+# Import the requests library: 
 import requests
 from bs4 import BeautifulSoup
 # A data structure representing a parsed HTML or XML document.
